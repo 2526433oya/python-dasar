@@ -1,8 +1,13 @@
-KKM = 75
-BATAS_HADIR = 80
-NAMA_SEKOLAH = "SMKN 2 Subang"
-PI = 3.14
-print("Sekolah:", NAMA_SEKOLAH)
-print("KKM:", KKM)
-print("Batas hadir:", BATAS_HADIR)
-print("Nilai pi:", PI)
+from constants import PI, GRAVITY, MAX_RETRY
+
+MAX_USERS = 100
+APP_NAME = "Belajar Python Oya"
+print("Nilai PI:", PI)
+print("Gravitasi:", GRAVITY)
+print("Maksimum Percobaan:", MAX_RETRY)
+print("Pengguna maksimum:", MAX_USERS)
+print(APP_NAME)
+TAX_RATE = 0.1
+harga_barang = 50000
+total = harga_barang + (harga_barang * TAX_RATE)
+print("Total harga:", total)
