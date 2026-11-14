@@ -1,9 +1,7 @@
-hadir = 85
-if hadir >= 90:
-    print("Kehadiran sangat baik")
-elif hadir >= 75:
-    print("Kehadiran baik")
+nilai = 85
+if nilai >= 90:
+    print("A")
+elif nilai >= 75:
+    print("B")
 else:
-    print("Kehadiran kurang")
-status = "Lulus" if hadir >= 75 else "Tidak lulus"
-print(status)
+    print("C")
