@@ -1,13 +1,14 @@
-def perkenalan(nama, kelas="XI RPL"):
-    print("Nama:", nama, "Kelas:", kelas)
+def tambah(a, b):
+    return a + b
 
 
-def min_max(angka):
-    return min(angka), max(angka)
+hasil = tambah(5, 7)
+print("Hasil penjumlahan:", hasil)
 
 
-perkenalan("Oya")
-perkenalan("Budi", "XI TKJ")
-perkenalan(kelas="X RPL", nama="Sari")
-terendah, tertinggi = min_max([80, 95, 70])
-print(terendah, tertinggi)
+def sapa_orang(nama="Teman"):
+    print(f"Halo {nama}!")
+
+
+sapa_orang("Oya")
+sapa_orang()

@@ -1,14 +1,14 @@
-def jumlah(*angka):
-    return sum(angka)
+def jumlahkan(*angka):
+    total = sum(angka)
+    print("Total:", total)
 
 
-def profil(**data):
-    for k, v in data.items():
-        print(k, "=", v)
+jumlahkan(1, 2, 3, 4, 5)
 
 
-kuadrat = lambda x: x * x
-print(jumlah(1, 2, 3, 4))
-profil(nama="Oya", kelas="XI RPL")
-print(kuadrat(7))
-print(list(map(lambda n: n + 1, [1, 2, 3])))
+def biodata(**data):
+    for key, value in data.items():
+        print(f"{key}: {value}")
+
+
+biodata(nama="Oya", kelas="XI RPL", kota="Subang")

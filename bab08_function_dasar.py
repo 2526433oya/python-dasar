@@ -1,10 +1,11 @@
 def sapa():
-    print("Halo dari fungsi")
+    print("Halo, selamat datang di Python!")
 
 
-def hitung_rata(a, b):
-    return (a + b) / 2
+def sapa_nama(nama):
+    print(f"Halo {nama}, semoga harimu menyenangkan!")
 
 
 sapa()
-print(hitung_rata(80, 90))
+sapa_nama("Oya")
+sapa_nama("Rina")
