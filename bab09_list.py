@@ -1,8 +1,6 @@
-mapel = ["Matematika", "Pemrograman Web"]
-mapel.append("Basis Data")
-mapel.insert(1, "Bahasa Indonesia")
-print(mapel)
-print(mapel[-1])
-print(mapel[1:3])
-mapel.sort()
-print(mapel)
+buah = ["apel", "jeruk", "mangga"]
+print(buah[0])
+buah.append("pisang")
+buah[1] = "anggur"
+buah.remove("mangga")
+print(buah)

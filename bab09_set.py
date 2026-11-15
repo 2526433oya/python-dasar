@@ -1,10 +1,10 @@
-nilai = {80, 90, 80, 70, 90}
-print(sorted(nilai))
-print(len(nilai))
-nilai.add(100)
-nilai.discard(70)
-print(sorted(nilai))
-a = {1, 2, 3}
-b = {3, 4}
-print(sorted(a.union(b)))
-print(sorted(a.intersection(b)))
+angka = {1, 2, 3, 3, 4, 5}
+print(angka)
+angka.add(6)
+angka.remove(2)
+print(angka)
+ganjil = {1, 3, 5, 7}
+genap = {2, 4, 6, 8}
+print(ganjil | genap)
+print(ganjil & genap)
+print(ganjil - genap)
